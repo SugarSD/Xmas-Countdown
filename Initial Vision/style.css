@@ -1,0 +1,32 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 29, 29);
+}
+
+.div-countdown {
+    text-align: center;
+    font-weight: 700;
+    font-size: 180%; 
+    margin: 22.5% auto auto;
+    width: 73%;
+    height: 0;
+}
+
+.remaining {
+    color: rgb(255, 171, 132);
+    padding: 5px 5px 8px;
+    border-style: dotted;
+    border-radius: 8px;
+    border-color: rgb(230, 230, 230)
+}
+
+.countdown-subtitle {
+    color: rgb(28, 150, 3);
+    font-size: 200%;
+    text-shadow: -1px 1px 2px rgb(40, 40, 40),
+				  1px 1px 2px rgb(40, 40, 40),
+				  1px -1px 0 rgb(40, 40, 40),
+				  -1px -1px 0 rgb(40, 40, 40);
+}
